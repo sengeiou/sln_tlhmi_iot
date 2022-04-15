@@ -1,0 +1,162 @@
+Release Name: MCUXpresso Software Development Kit (SDK)
+Release Version: 2.11
+Package License: LA_OPT_NXP_Software_License.txt - Additional Distribution use, section 2.3 applies
+NXP Product: NXP’s product with a part number of MIMXRT117HDVMAA or NXP’s product included in the NXP evaluation kit with a part number of SLN-TLHMI-IOT
+                                      
+cmsis                      Name: CMSIS                                       
+                           Version: 5.6.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: CMSIS/LICENSE.txt                   
+                           Format: source code                               
+                           Description: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores                                        
+                           Location: CMSIS/                                  
+                           Origin: ARM (Apache-2.0) -                        
+                           https://github.com/ARM-software/CMSIS_5/releases/t
+                           ag/5.6.0                                          
+                      
+SDK_Components             Name: SDK components and board peripheral drivers 
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: SDK components and board peripheral  
+                           drivers, for example, flash and codec drivers.    
+                           Location: cm4/components, cm7/components                             
+                           Origin: NXP (BSD-3-Clause)                        
+
+usb                        Name: USB                                         
+                           Version: 2.7.0                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: NXP USB stack. This is a version of  
+                           the USB stack that has been integrated with the   
+                           MCUXpresso SDK.                                   
+                           Location: cm4/usb, cm7/usb                          
+                           Origin: NXP (BSD-3-Clause)                        
+
+freertos                   Name: FreeRTOS                                    
+                           Version: 202007.00.0                              
+                           Outgoing License: MIT                             
+                           License File: cm4/freertos/LICENSE, cm7/freertos/LICENSE               
+                           Format: source code                               
+                           Description: IoT operating system for             
+                           microcontrollers                                  
+                           Location: cm4/freertos, cm7/freertos                           
+                           Origin: Real Time Engineers, Ltd. (MIT)           
+                           Url: https://aws.amazon.com/freertos/                                            
+
+sdmmc                      Name: SD MMC SDIO Card middleware                 
+                           Version: 2.2.7                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: A software component support SD card,
+                           eMMC card, SDIO card.                             
+                           Location: middleware/sdmmc                        
+                           Origin: NXP (BSD-3-Clause)                        
+
+mmcau                      Name: mmCAU S/W Library                           
+                           Version: 2.0.1                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: S/W library that works with the      
+                           memory-mapped cryptographic acceleration unit     
+                           present on some MCUXpresso SoCs                                          
+                           Origin: NXP (BSD-3-Clause)                                         
+
+LittleFS                   Name: LittleFS                                    
+                           Version: 2.2.1                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: middleware/littlefs/LICENSE.md      
+                           Format: source code                               
+                           Description: LittleFS - A little fail-safe        
+                           filesystem designed for microcontrollers                              
+                           Origin: Little FS (Christopher Haster)                                           
+                           Url: https://github.com/littlefs-project/littlefs 
+
+sln_iot_common_platform    Name: IoT Solutions Common Platform               
+                           Version: 1.0.1                                    
+                           Outgoing License: LA_OPT_NXP_Software_License.txt  
+                           License File: LA_OPT_NXP_Software_License.txt     
+                           Format: Source                                    
+                           Description: Common code for IoT Solutions        
+                           Location: sln_iot_platform             
+                           Origin: NXP (Proprietary)                                      
+
+oasis                      Name: IoT Solution Oasis Library                  
+                           Version: 1.0.2                                    
+                           Outgoing License: Proprietary                     
+                           License File: LA_OPT_NXP_Software_License.txt     
+                           Format: object code & header files                
+                           Description: Oasis library which does face        
+                           detection and recognition with enhanced security, 
+                           compiled for M7.                                                        
+                           Origin: NXP                                       
+
+orbbec_camera              Name: Orbbec camera 3d drivers middleware         
+                           Version: 1.0.1                                    
+                           Outgoing License: Apache License Version 2.0,     
+                           Proprietary                                       
+                           License File:                                     
+                           https://shop.orbbec3d.com/terms-and-conditions    
+                           Format: object code & header files                
+                           Description: Orbbec camera driver                                        
+                           Origin: Orbbec
+                                    
+MCMGR                      Name: MCMGR
+                           Version: 4.1.1
+                           Outgoing License: BSD-3-Clause
+                           License File: COPYING-BSD-3
+                           Format: source code
+                           Description: Multicore manager
+                           Location: cm4/mcmgr, cm7/mcmgr
+                           Origin: NXP (BSD-3-Clause)
+
+multicore                  Name: Multicore SDK
+                           Version: 2.11.0
+                           Outgoing License: BSD-3-Clause
+                           License File: COPYING-BSD-3
+                           Format: source code
+                           Description: NXP Multicore Software Development
+                           Kit.
+                           Origin: NXP (BSD-3-Clause)
+
+vglite                     Name: vglite
+                           Version: 3.0.13_rev2
+                           Outgoing License: MIT
+                           License File: cm4/vglite/LICENSE.txt
+                           Format: source code
+                           Description: VeriSilicon's platform independent
+                           VGLite Graphics library
+                           Location: cm4/vglite
+                           Origin: VeriSilicon (http://www.verisilicon.com/)
+                           Url: http://www.verisilicon.com/
+
+mcufont                    Name: mcufont
+                           Version: 1.0
+                           Outgoing License: MIT
+                           License File:
+                           cm4/vglite/font/mcufont/LICENSE
+                           Format: source code
+                           Description: Font rendering library for
+                           microcontrollers
+                           Location: cm4/vglite/font/mcufont
+                           Origin: Petteri Aimonen
+                           (https://github.com/PetteriAimonen)
+                           Url: https://github.com/mcufont/mcufont
+
+lvgl                       Name: LVGL
+                           Version: 8.0.2
+                           Outgoing License: MIT
+                           License File: cm4/lvgl/lvgl/LICENCE.txt
+                           Format: source code
+                           Description: Light and Versatile Graphics Library
+                           (LVGL)
+                           Location: cm4/lvgl
+                           Origin: Gabor Kiss-Vamosi
+                           Url: https://github.com/lvgl/lvgl
